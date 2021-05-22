@@ -1,0 +1,31 @@
+.board {
+    height: 100%;
+    background-color: transparent;
+    :global {
+        .ant-col {
+            height: 100%;
+            &.board-left {
+                width: 50%;
+                .ant-table-body {   //没有这个700px列表就不能上下滑动
+                    height: 600px;
+                }
+            }
+            &.board-right {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                .video {
+                 //padding-bottom: 10px;
+                 height: 50%;
+                
+                }
+                .section-container {
+                    overflow: hidden;
+                }
+                .notice {
+                    height: 50%;
+                }
+            }
+        }
+    }
+}

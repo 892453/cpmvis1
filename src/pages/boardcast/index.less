@@ -1,0 +1,39 @@
+.board {
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    &>div {
+        height: 100%;
+    }
+    :global {
+        .board-left {
+            padding: 0 5px;
+            display: flex;
+           
+            width: 60%;
+            flex: 1;
+            .ant-table-body {
+                height: 700px;
+            }
+           
+        }
+        .board-right {
+            padding: 0 5px;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            .cap{
+                padding-bottom: 5px;
+                height: 100%;
+                
+                //  .ant-table-body {
+                //      height: 300px;
+                //      width:200px;
+                //  }
+                
+            }
+           
+        }
+    }
+
+}
