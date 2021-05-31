@@ -35,7 +35,7 @@ export default function BasicLayout({ children }) {
 						<Clock />
 					</div>
 					<div className="layout-header-title">
-						<div>新冠疫情模拟预测与多尺度舆情监测分析系统</div>
+						<div>新冠疫情模拟预测与舆情态势可视分析系统</div>
 						<Decoration5
 							color={["#45b8d1", "#45b8d1"]}
 							className="title-decorate"
@@ -45,28 +45,28 @@ export default function BasicLayout({ children }) {
 						<span>
 							<BorderBox7>
 								<span className={`menu-item ${setActive('/analysis')}`}>
-									<Link to="/analysis">疫情分析</Link>
+									{/* <Link to="/analysis">疫情分析</Link> */}
 								</span>
 							</BorderBox7>
 						</span>
 						<span>
 							<BorderBox7>
 								<span className={`menu-item ${setActive('/option')}`}>
-									<Link to="/option">舆情信息</Link>
+									{/* <Link to="/option">舆情信息</Link> */}
 								</span>
 							</BorderBox7>
 						</span>
 						<span>
 							<BorderBox7>
 								<span className={`menu-item ${setActive('/network')}`}>
-									<Link to="/network">舆情分布</Link>
+									{/* <Link to="/network">舆情分布</Link> */}
 								</span>
 							</BorderBox7>
 						</span>
 						<span>
 							<BorderBox7>
 								<span className={`menu-item ${setActive('/network')}`}>
-									<Link to="/board">播报信息</Link>
+									{/* <Link to="/board">播报信息</Link> */}
 								</span>
 							</BorderBox7>
 						</span>

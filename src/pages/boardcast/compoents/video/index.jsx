@@ -16,9 +16,9 @@ import "../../../../../node_modules/video-react/dist/video-react.css"
 
 //视频资源url
 const sources = {
-    video1: 'http://www.aifixerpic.icu/music/download_mp3?filename=比赛回顾.mp4',
+    video1: 'http://www.aifixerpic.icu/music/download_mp3?filename=科普视频1.mp4',
     video2: 'http://www.aifixerpic.icu/music/download_mp3?filename=关于新冠肺炎的一切.mp4',
-    video3: 'http://www.aifixerpic.icu/music/download_mp3?filename=perfect_turmp.mp4'
+    video3: 'http://www.aifixerpic.icu/music/download_mp3?filename=科普视频2.mp4'
   };
 
 class Video extends Component {

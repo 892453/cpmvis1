@@ -7,18 +7,20 @@ import Analysis from '@/pages/analysis'
 import Network from '@/pages/network'
 import opinionAnly from '@/pages/opinionAnly'
 import Boardcast from '@/pages/boardcast'
+import Test from '@/pages/test'
 
 export default function Router() {
     return (
         <ReactRouter history={history}>
             <Layout>
                 <Switch>
-                    <Route path="/analysis" component={Analysis} />
+                    {/* <Route path="/analysis" component={Analysis} />
                     <Route path="/network" component={Network} />
                     <Route path="/option" component={Opinion} />
                     <Route path="/board" component={Boardcast} />
-                    <Route path="/optionAnly" component={opinionAnly} />
-                    <Redirect from="/" to="/analysis" />
+                    <Route path="/optionAnly" component={opinionAnly} /> */}
+                    <Route path="/main" component={Test} />
+                    <Redirect from="/" to="/main" />
                 </Switch>
             </Layout>
         </ReactRouter>
